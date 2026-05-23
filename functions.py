@@ -24,7 +24,7 @@ def find_hole(gx, gy, dx, dy, holes):
             hx, hy
         )
 
-        if dog_distance >= 2 * gopher_distance:
+        if dog_distance > 2 * gopher_distance:
             return index
 
     return -1

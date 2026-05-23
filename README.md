@@ -29,3 +29,11 @@
 - decomposition.txt
 - task.txt
 - research.txt
+
+## Автоматическое тестирование
+
+Для проверки функций используется unittest.
+
+Запуск:
+
+python -m unittest

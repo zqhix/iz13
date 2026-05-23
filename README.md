@@ -29,6 +29,7 @@
 - decomposition.txt
 - task.txt
 - research.txt
+- test_functions.py
 
 ## Автоматическое тестирование
 

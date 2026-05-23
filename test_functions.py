@@ -45,7 +45,29 @@ class TestFunctions(unittest.TestCase):
         )
 
         self.assertEqual(result, -1)
-
+        
+    def test_find_hole_first(self):
+            holes = [
+            (3, 0),
+            (8, 0)
+        ]
+            result = find_hole(
+            0, 0,
+            10, 0,
+            holes
+        )
+            self.assertEqual(result, 1)
+    
+    def test_find_hole_equal(self):
+            holes = [
+            (20, 0)
+        ]
+            result = find_hole(
+            0, 0,
+            10, 0,
+            holes
+        )
+            self.assertEqual(result, -1)
 
 if __name__ == "__main__":
     unittest.main()
